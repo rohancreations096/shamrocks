@@ -11,7 +11,7 @@ income=st.number_input('enter income ')
 ld=st.number_input('enter loan amount')
 
 if st.button('predict approval'):
-    prediction=model.predict([[gender,married,income,la]])
+    prediction=model.predict([[gender,married,income,ld]])
     if prediction == 'Y':
         st.text('loan approved')
     else:
