@@ -1,4 +1,3 @@
-
 import streamlit as st
 import joblib
 st.title('loan approval process automation')
